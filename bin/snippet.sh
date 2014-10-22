@@ -1,4 +1,8 @@
 #!/bin/sh
+
+# requires sox and ffmpeg and lame
+#
+
 for i in *ogg 
 do  
 	bn=`basename "$i" .ogg`
